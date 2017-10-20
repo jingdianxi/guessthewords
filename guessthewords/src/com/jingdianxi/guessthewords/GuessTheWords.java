@@ -102,7 +102,6 @@ public class GuessTheWords {
 
 	// 猜词成功
 	public static void goal() {
-		System.out.println(word);
 		System.out.println("猜词成功");
 	}
 
