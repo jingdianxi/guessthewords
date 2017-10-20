@@ -80,8 +80,8 @@ public class GuessTheWords {
 		// 遍历目标单词
 		for (int i = 0; i < word.length(); i++) {
 			// 将用户猜出字母转为可见
-			if (word.charAt(i) == key.charAt(0)) {
-				chars[i] = key;
+			if (word.charAt(i) == key.toLowerCase().charAt(0)) {
+				chars[i] = key.toLowerCase();
 			}
 		}
 		// 判断单词是否完全猜出
