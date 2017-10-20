@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class GuessTheWords {
 
-	// 定义字条串数组保存词库
+	// 定义字符串数组保存词库
 	public static String[] str = { "apple", "bravo", "charlie", "delta", "echo", "fox", "apple", "banana", "cat", "dog", "egg", "element" };
 
 	// 随机选取单词
