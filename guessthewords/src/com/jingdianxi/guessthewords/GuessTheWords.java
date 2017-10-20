@@ -102,6 +102,7 @@ public class GuessTheWords {
 
 	// 猜词成功
 	public static void goal() {
+		System.out.println(word);
 		System.out.println("猜词成功");
 	}
 
@@ -112,7 +113,6 @@ public class GuessTheWords {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.println(word);
 		init();
 	}
 
